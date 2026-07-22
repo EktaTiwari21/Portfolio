@@ -20,7 +20,7 @@
       <a href="#home" class="nav-icon-link active" title="Home">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
       </a>
-      <a href="#projects" class="nav-icon-link" title="Projects">
+      <a href="/projects.html" class="nav-icon-link" title="Projects Page">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
       </a>
       <a href="#experience" class="nav-icon-link" title="Experience">
@@ -32,7 +32,7 @@
       <a href="#tools" class="nav-icon-link" title="Tools & Stack">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
       </a>
-      <a href="#certifications" class="nav-icon-link" title="Certifications">
+      <a href="#certifications" class="nav-icon-link" title="Certifications & Achievements">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
       </a>
       <a href="#contact" class="nav-icon-link" title="Contact">
@@ -120,21 +120,21 @@
           </div>
         </div>
 
-        <!-- Feature Cards (Orange & Lime Side by Side) -->
+        <!-- Feature Banner Cards (Orange: Achievements, Lime: Projects Page) -->
         <div class="banner-cards-grid">
-          <a href="https://www.naviklabs.com/" target="_blank" rel="noopener noreferrer" class="banner-card orange-banner">
+          <a href="#certifications" class="banner-card orange-banner">
             <div class="banner-icon-box">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 17 22 12"></polyline></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
             </div>
-            <h3 class="banner-text">NAVIK LABS (COMPANY WEBSITE)</h3>
+            <h3 class="banner-text">ACHIEVEMENTS</h3>
             <div class="banner-arrow-btn">→</div>
           </a>
 
-          <a href="https://ui-builder-frontend-ten.vercel.app/" target="_blank" rel="noopener noreferrer" class="banner-card lime-banner">
+          <a href="/projects.html" class="banner-card lime-banner">
             <div class="banner-icon-box">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
             </div>
-            <h3 class="banner-text">AUTONOMOUS UI-BUILDER (AI DESIGNER)</h3>
+            <h3 class="banner-text">PROJECTS</h3>
             <div class="banner-arrow-btn">→</div>
           </a>
         </div>
@@ -142,16 +142,21 @@
 
       <!-- Recent Projects Section -->
       <section class="section projects-section" id="projects">
-        <h2 class="duotone-title">
-          <span class="title-primary">RECENT</span>
-          <span class="title-secondary">PROJECTS</span>
-        </h2>
+        <div style="display: flex; align-items: baseline; justify-content: space-between;">
+          <h2 class="duotone-title">
+            <span class="title-primary">RECENT</span>
+            <span class="title-secondary">PROJECTS</span>
+          </h2>
+          <a href="/projects.html" class="card-item-role" style="font-size: 0.95rem; font-weight: 700;">
+            View All Projects →
+          </a>
+        </div>
 
         <div class="framer-projects-list">
           <!-- Project 1: Navik Labs -->
           <div class="framer-project-card">
             <div class="project-thumb-box">
-              <img src="/images/NL.png" alt="Navik Labs" class="project-thumb-img">
+              <img src="/images/PhIxX38mhdPQ9JAYHuioKv54qpc.png" alt="Navik Labs" class="project-thumb-img">
             </div>
             <div class="project-card-details">
               <h3 class="project-card-name">Navik Labs</h3>
@@ -163,7 +168,7 @@
           <!-- Project 2: Radhika Farms -->
           <div class="framer-project-card">
             <div class="project-thumb-box">
-              <img src="/images/RF.png" alt="Radhika Farms" class="project-thumb-img">
+              <img src="/images/5Ra4AFZmEJOkMGLAEjkRXt2oqF4.png" alt="Radhika Farms" class="project-thumb-img">
             </div>
             <div class="project-card-details">
               <h3 class="project-card-name">Radhika Farms</h3>
@@ -175,7 +180,7 @@
           <!-- Project 3: Autonomous UI-Builder -->
           <div class="framer-project-card">
             <div class="project-thumb-box">
-              <img src="/images/UI.png" alt="Autonomous UI-Builder" class="project-thumb-img">
+              <img src="/images/Drwr8lzIb44BzOEn0nNlsSJ4AWk.png" alt="Autonomous UI-Builder" class="project-thumb-img">
             </div>
             <div class="project-card-details">
               <h3 class="project-card-name">Autonomous UI-Builder</h3>
@@ -231,18 +236,18 @@
         </div>
       </section>
 
-      <!-- Tools & Stack Section -->
+      <!-- Premium Tools Section -->
       <section class="section tools-section" id="tools">
         <h2 class="duotone-title">
-          <span class="title-primary">TECHNICAL</span>
+          <span class="title-primary">PREMIUM</span>
           <span class="title-secondary">TOOLS</span>
         </h2>
 
         <div class="tools-grid-framer">
-          <!-- Tool 1 -->
+          <!-- Tool 1: React & Next.js -->
           <div class="framer-tool-card">
             <div class="tool-icon-box">
-              <img src="/images/react.svg" alt="React.js & Next.js" class="tool-icon">
+              <img src="/images/react.svg" alt="React & Next.js" class="tool-icon">
             </div>
             <div class="tool-details">
               <h3 class="tool-name">React & Next.js</h3>
@@ -250,7 +255,7 @@
             </div>
           </div>
 
-          <!-- Tool 2 -->
+          <!-- Tool 2: TypeScript & Python -->
           <div class="framer-tool-card">
             <div class="tool-icon-box">
               <img src="/images/typescript.svg" alt="TypeScript & Python" class="tool-icon">
@@ -261,7 +266,7 @@
             </div>
           </div>
 
-          <!-- Tool 3 -->
+          <!-- Tool 3: Tailwind CSS -->
           <div class="framer-tool-card">
             <div class="tool-icon-box">
               <img src="/images/tailwind.svg" alt="Tailwind CSS" class="tool-icon">
@@ -272,7 +277,7 @@
             </div>
           </div>
 
-          <!-- Tool 4 -->
+          <!-- Tool 4: FastAPI & Node.js -->
           <div class="framer-tool-card">
             <div class="tool-icon-box">
               <img src="/images/fastapi.svg" alt="FastAPI & Node.js" class="tool-icon">
@@ -283,7 +288,7 @@
             </div>
           </div>
 
-          <!-- Tool 5 -->
+          <!-- Tool 5: Supabase & SQL -->
           <div class="framer-tool-card">
             <div class="tool-icon-box">
               <img src="/images/supabase.svg" alt="Supabase & SQL" class="tool-icon">
@@ -294,7 +299,7 @@
             </div>
           </div>
 
-          <!-- Tool 6 -->
+          <!-- Tool 6: LangGraph & Gemini -->
           <div class="framer-tool-card">
             <div class="tool-icon-box">
               <img src="/images/langgraph.svg" alt="LangGraph & Gemini" class="tool-icon">
@@ -403,7 +408,7 @@
           <p class="footer-copy">&copy; 2026 Ekta Tiwari. All rights reserved.</p>
           <div class="footer-links">
             <a href="#home">Home</a>
-            <a href="#projects">Projects</a>
+            <a href="/projects.html">Projects</a>
             <a href="#experience">Experience</a>
             <a href="#education">Education</a>
             <a href="/EktaTiwari_Resume.pdf" target="_blank">Resume PDF</a>
