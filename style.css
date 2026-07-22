@@ -130,20 +130,20 @@ img {
   background: rgba(255, 255, 255, 0.12);
 }
 
-/* Main 2-Column Portfolio Grid */
+/* Main 2-Column Portfolio Grid (Generous top padding to prevent floating nav overlap) */
 .portfolio-layout-grid {
   display: grid;
   grid-template-columns: 350px 1fr;
   gap: 52px;
   align-items: start;
-  padding-top: 80px;
+  padding-top: 125px;
 }
 
-/* STICKY LEFT SIDEBAR (Lifted up for perfect eye-level vertical centering) */
+/* STICKY LEFT SIDEBAR */
 .portfolio-left-sidebar {
   position: sticky;
-  top: 55px;
-  height: calc(100vh - 75px);
+  top: 90px;
+  height: calc(100vh - 110px);
   z-index: 50;
 }
 
@@ -708,7 +708,7 @@ img {
   .portfolio-layout-grid {
     grid-template-columns: 1fr;
     gap: 40px;
-    padding-top: 90px;
+    padding-top: 110px;
   }
 
   .portfolio-left-sidebar {
