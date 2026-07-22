@@ -136,14 +136,15 @@ img {
   grid-template-columns: 350px 1fr;
   gap: 52px;
   align-items: start;
-  padding-top: 110px;
+  padding-top: 92px;
 }
 
-/* STICKY LEFT SIDEBAR */
+/* STICKY LEFT SIDEBAR (Positioned higher for landing page pop) */
 .portfolio-left-sidebar {
   position: sticky;
-  top: 80px;
-  height: calc(100vh - 100px);
+  top: 36px;
+  height: calc(100vh - 56px);
+  margin-top: -28px;
   z-index: 50;
 }
 
