@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekta Tiwari — Frontend Developer</title>
+  <meta name="description" content="Portfolio of Ekta Tiwari, UI-UX & Frontend Developer specializing in React.js, Next.js, TypeScript, Tailwind CSS, and AI tools.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23111111'/><circle cx='50' cy='50' r='20' fill='%23f46c38'/></svg>">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Top Floating Navigation Pill -->
+  <header class="floating-header" id="header">
+    <nav class="floating-nav" id="navMenu">
+      <a href="#home" class="nav-icon-link active" title="Home">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      </a>
+      <a href="#projects" class="nav-icon-link" title="Projects">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+      </a>
+      <a href="#experience" class="nav-icon-link" title="Experience">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+      </a>
+      <a href="#education" class="nav-icon-link" title="Education">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+      </a>
+      <a href="#tools" class="nav-icon-link" title="Tools & Stack">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+      </a>
+      <a href="#certifications" class="nav-icon-link" title="Certifications">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+      </a>
+      <a href="#contact" class="nav-icon-link" title="Contact">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Main 2-Column Portfolio Grid Container -->
+  <div class="container portfolio-layout-grid">
+    
+    <!-- STICKY LEFT SIDEBAR (Persists while HR/Recruiter scrolls) -->
+    <aside class="portfolio-left-sidebar">
+      <div class="white-profile-card">
+        
+        <!-- Decorative Orange Doodle Accents -->
+        <svg class="card-doodle doodle-top-left" width="130" height="130" viewBox="0 0 130 130" fill="none">
+          <circle cx="15" cy="15" r="55" stroke="#f46c38" stroke-width="2.5" stroke-dasharray="6 6" fill="none" opacity="0.85"/>
+        </svg>
+
+        <svg class="card-doodle doodle-sparkle-top" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f46c38" stroke-width="2">
+          <path d="M12 0L14.5 9.5L24 12L14.5 14.5L12 24L9.5 14.5L0 12L9.5 9.5L12 0Z"/>
+        </svg>
+
+        <svg class="card-doodle doodle-sparkle-bottom" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f46c38" stroke-width="2">
+          <path d="M12 0L14.5 9.5L24 12L14.5 14.5L12 24L9.5 14.5L0 12L9.5 9.5L12 0Z"/>
+        </svg>
+
+        <!-- Single Profile Image -->
+        <div class="profile-image-wrapper">
+          <img src="/images/profile-card.png" alt="Ekta Tiwari" class="profile-img">
+        </div>
+        
+        <div class="profile-card-content">
+          <h2 class="profile-name">Ekta Tiwari</h2>
+          <p class="profile-bio">
+            A UI-UX & Frontend Developer crafting intuitive, scalable web platforms, AI tools, and design systems.
+          </p>
+
+          <div class="profile-social-icons">
+            <a href="https://github.com/EktaTiwari21" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="mailto:ektartiwari54@gmail.com" title="Email" class="social-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            <a href="tel:+919662503101" title="Phone" class="social-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </a>
+            <a href="/EktaTiwari_Resume.pdf" target="_blank" title="Resume PDF" class="social-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- RIGHT SCROLLABLE CONTENT COLUMN -->
+    <main class="portfolio-right-content">
+      
+      <!-- Hero Section -->
+      <section class="hero-section" id="home">
+        <h1 class="duotone-title">
+          <span class="title-primary">FRONTEND</span>
+          <span class="title-secondary">DEVELOPER</span>
+        </h1>
+
+        <p class="hero-desc">
+          Passionate about creating intuitive and engaging user experiences. Specialize in transforming complex ideas into beautifully crafted web applications.
+        </p>
+
+        <!-- Key Stat Counters -->
+        <div class="framer-stats-grid">
+          <div class="framer-stat">
+            <div class="stat-val">+8</div>
+            <div class="stat-lbl">CLIENT WEB APPS<br>DELIVERED</div>
+          </div>
+          <div class="framer-stat">
+            <div class="stat-val">+10</div>
+            <div class="stat-lbl">DENTAL.AI<br>WORKFLOWS</div>
+          </div>
+          <div class="framer-stat">
+            <div class="stat-val">+7.2</div>
+            <div class="stat-lbl">BTECH GPA<br>PARUL UNIV.</div>
+          </div>
+        </div>
+
+        <!-- Feature Cards (Orange & Lime Side by Side) -->
+        <div class="banner-cards-grid">
+          <a href="https://www.naviklabs.com/" target="_blank" rel="noopener noreferrer" class="banner-card orange-banner">
+            <div class="banner-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 17 22 12"></polyline></svg>
+            </div>
+            <h3 class="banner-text">NAVIK LABS (COMPANY WEBSITE)</h3>
+            <div class="banner-arrow-btn">→</div>
+          </a>
+
+          <a href="https://ui-builder-frontend-ten.vercel.app/" target="_blank" rel="noopener noreferrer" class="banner-card lime-banner">
+            <div class="banner-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+            </div>
+            <h3 class="banner-text">AUTONOMOUS UI-BUILDER (AI DESIGNER)</h3>
+            <div class="banner-arrow-btn">→</div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Recent Projects Section -->
+      <section class="section projects-section" id="projects">
+        <h2 class="duotone-title">
+          <span class="title-primary">RECENT</span>
+          <span class="title-secondary">PROJECTS</span>
+        </h2>
+
+        <div class="framer-projects-list">
+          <!-- Project 1: Navik Labs -->
+          <div class="framer-project-card">
+            <div class="project-thumb-box">
+              <img src="/images/NL.png" alt="Navik Labs" class="project-thumb-img">
+            </div>
+            <div class="project-card-details">
+              <h3 class="project-card-name">Navik Labs</h3>
+              <p class="project-card-sub">Company Website & Client Apps (React.js • Next.js • TypeScript • Tailwind CSS)</p>
+            </div>
+            <a href="https://www.naviklabs.com/" target="_blank" rel="noopener noreferrer" class="card-arrow-link" aria-label="Visit Navik Labs">↗</a>
+          </div>
+
+          <!-- Project 2: Radhika Farms -->
+          <div class="framer-project-card">
+            <div class="project-thumb-box">
+              <img src="/images/RF.png" alt="Radhika Farms" class="project-thumb-img">
+            </div>
+            <div class="project-card-details">
+              <h3 class="project-card-name">Radhika Farms</h3>
+              <p class="project-card-sub">An E-commerce Webpage (Next.js • Storytelling Modules • Responsive Web Platform)</p>
+            </div>
+            <a href="https://radhikafarms.vercel.app/" target="_blank" rel="noopener noreferrer" class="card-arrow-link" aria-label="Visit Radhika Farms">↗</a>
+          </div>
+
+          <!-- Project 3: Autonomous UI-Builder -->
+          <div class="framer-project-card">
+            <div class="project-thumb-box">
+              <img src="/images/UI.png" alt="Autonomous UI-Builder" class="project-thumb-img">
+            </div>
+            <div class="project-card-details">
+              <h3 class="project-card-name">Autonomous UI-Builder</h3>
+              <p class="project-card-sub">AI-Based UI Designer (LangGraph • OpenAI • Gemini • React & Tailwind)</p>
+            </div>
+            <a href="https://ui-builder-frontend-ten.vercel.app/" target="_blank" rel="noopener noreferrer" class="card-arrow-link" aria-label="Visit Autonomous UI-Builder">↗</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="section experience-section" id="experience">
+        <h2 class="duotone-title">
+          <span class="title-primary">CAREER</span>
+          <span class="title-secondary">EXPERIENCE</span>
+        </h2>
+
+        <div class="framer-cards-stack">
+          <!-- Experience 1 -->
+          <div class="framer-card-item">
+            <div class="card-item-body">
+              <h3 class="card-item-title">Navik Labs</h3>
+              <p class="card-item-role">UI-UX & Frontend Developer (Intern)</p>
+              <p class="card-item-desc">
+                Delivered 8+ client-facing web applications using React.js, Next.js, TypeScript, and Tailwind CSS. Implemented 10+ user workflows for Dental.ai and Radhika Farms platforms.
+              </p>
+              <span class="card-item-date">Feb 2026 – Present • India</span>
+            </div>
+            <a href="https://www.naviklabs.com/" target="_blank" rel="noopener noreferrer" class="card-arrow-link">↗</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="section education-section" id="education">
+        <h2 class="duotone-title">
+          <span class="title-primary">ACADEMIC</span>
+          <span class="title-secondary">EDUCATION</span>
+        </h2>
+
+        <div class="framer-cards-stack">
+          <!-- Education: Parul University -->
+          <div class="framer-card-item">
+            <div class="card-item-body">
+              <h3 class="card-item-title">Parul University (Parul Institute of Technology)</h3>
+              <p class="card-item-role">BTech, Computer Science and Technologies</p>
+              <p class="card-item-desc">
+                Academic training in Data Structures & Algorithms, Object-Oriented Programming (OOP), SDLC, Database Management Systems (DBMS), and Responsive Web Design. (GPA: 7.20 / 10).
+              </p>
+              <span class="card-item-date">2022 – 2026 • Gujarat, India</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tools & Stack Section -->
+      <section class="section tools-section" id="tools">
+        <h2 class="duotone-title">
+          <span class="title-primary">TECHNICAL</span>
+          <span class="title-secondary">TOOLS</span>
+        </h2>
+
+        <div class="tools-grid-framer">
+          <!-- Tool 1 -->
+          <div class="framer-tool-card">
+            <div class="tool-icon-box">
+              <img src="/images/react.svg" alt="React.js & Next.js" class="tool-icon">
+            </div>
+            <div class="tool-details">
+              <h3 class="tool-name">React & Next.js</h3>
+              <p class="tool-category">Frontend Frameworks</p>
+            </div>
+          </div>
+
+          <!-- Tool 2 -->
+          <div class="framer-tool-card">
+            <div class="tool-icon-box">
+              <img src="/images/typescript.svg" alt="TypeScript & Python" class="tool-icon">
+            </div>
+            <div class="tool-details">
+              <h3 class="tool-name">TypeScript & Python</h3>
+              <p class="tool-category">Programming Languages</p>
+            </div>
+          </div>
+
+          <!-- Tool 3 -->
+          <div class="framer-tool-card">
+            <div class="tool-icon-box">
+              <img src="/images/tailwind.svg" alt="Tailwind CSS" class="tool-icon">
+            </div>
+            <div class="tool-details">
+              <h3 class="tool-name">Tailwind CSS</h3>
+              <p class="tool-category">UI Styling System</p>
+            </div>
+          </div>
+
+          <!-- Tool 4 -->
+          <div class="framer-tool-card">
+            <div class="tool-icon-box">
+              <img src="/images/fastapi.svg" alt="FastAPI & Node.js" class="tool-icon">
+            </div>
+            <div class="tool-details">
+              <h3 class="tool-name">FastAPI & Node.js</h3>
+              <p class="tool-category">Backend & REST APIs</p>
+            </div>
+          </div>
+
+          <!-- Tool 5 -->
+          <div class="framer-tool-card">
+            <div class="tool-icon-box">
+              <img src="/images/supabase.svg" alt="Supabase & SQL" class="tool-icon">
+            </div>
+            <div class="tool-details">
+              <h3 class="tool-name">Supabase & SQL</h3>
+              <p class="tool-category">Database & Cloud Platform</p>
+            </div>
+          </div>
+
+          <!-- Tool 6 -->
+          <div class="framer-tool-card">
+            <div class="tool-icon-box">
+              <img src="/images/langgraph.svg" alt="LangGraph & Gemini" class="tool-icon">
+            </div>
+            <div class="tool-details">
+              <h3 class="tool-name">LangGraph & Gemini</h3>
+              <p class="tool-category">AI Multi-Agent Workflow</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section class="section certs-section" id="certifications">
+        <h2 class="duotone-title">
+          <span class="title-primary">CERTIFICATIONS</span>
+          <span class="title-secondary">& CREDENTIALS</span>
+        </h2>
+
+        <div class="framer-cards-stack">
+          <!-- Cert 1 -->
+          <div class="framer-card-item">
+            <div class="card-item-body">
+              <h3 class="card-item-title">Microsoft Certified: Azure AI Fundamentals (AI-900)</h3>
+              <p class="card-item-role">Microsoft</p>
+            </div>
+            <span class="card-arrow-link">↗</span>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="framer-card-item">
+            <div class="card-item-body">
+              <h3 class="card-item-title">Anthropic – AI Fluency: Framework Foundations</h3>
+              <p class="card-item-role">Anthropic</p>
+            </div>
+            <span class="card-arrow-link">↗</span>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="framer-card-item">
+            <div class="card-item-body">
+              <h3 class="card-item-title">Claude 101</h3>
+              <p class="card-item-role">Anthropic</p>
+            </div>
+            <span class="card-arrow-link">↗</span>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="framer-card-item">
+            <div class="card-item-body">
+              <h3 class="card-item-title">Tech Expo 2026 Demonstrator (PIERC)</h3>
+              <p class="card-item-role">Leadership & Project Showcase</p>
+              <p class="card-item-desc">Demonstrated Evently Smart Event Management System at Tech Expo 2026 under PIERC.</p>
+            </div>
+            <span class="card-arrow-link">↗</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form Section ("LET'S WORK TOGETHER") -->
+      <section class="section contact-section" id="contact">
+        <h2 class="duotone-title center-title">
+          <span class="title-primary">LET'S WORK</span>
+          <span class="title-secondary">TOGETHER</span>
+        </h2>
+
+        <div class="contact-form-wrapper">
+          <form class="framer-contact-form" id="contactForm">
+            <div class="form-row grid-2">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="framer-input" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="framer-input" placeholder="Your@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="budget" class="form-label">Purpose / Subject</label>
+              <select id="budget" name="budget" class="framer-select" required>
+                <option value="" disabled selected>Select Purpose</option>
+                <option value="frontend">Frontend / UI-UX Opportunity</option>
+                <option value="project">Project Collaboration</option>
+                <option value="consulting">General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="framer-textarea" rows="5" placeholder="Tell me about your project or role..." required></textarea>
+            </div>
+
+            <button type="submit" class="orange-submit-btn" id="submitBtn">
+              Submit
+            </button>
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p class="footer-copy">&copy; 2026 Ekta Tiwari. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="/EktaTiwari_Resume.pdf" target="_blank">Resume PDF</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
