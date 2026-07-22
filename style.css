@@ -491,6 +491,20 @@ img {
   transform: translateX(6px);
 }
 
+.cgpa-top-badge {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent-orange);
+  background: rgba(244, 108, 56, 0.12);
+  border: 1px solid rgba(244, 108, 56, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
 .card-item-body {
   flex-grow: 1;
 }
